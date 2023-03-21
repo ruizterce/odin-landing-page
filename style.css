@@ -1,11 +1,11 @@
-body > * {
+body>* {
     font-family: 'Roboto', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 h1 {
-    font-size:48px;
+    font-size: 48px;
     font-stretch: extra-condensed;
     font-weight: 800;
     color: #F9FAF8;
@@ -31,14 +31,14 @@ h2 {
     gap: 24px;
 }
 
-a {
+.header a {
     text-decoration: none;
-    color:#F9FAF8;
+    color: #F9FAF8;
     font-size: 18px;
 }
 
 .logo {
-    flex:1;
+    flex: 1;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 900;
@@ -49,13 +49,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 0px;
     padding-bottom: 50px;
     box-sizing: border-box;
     color: #E5E7EB;
     background-color: #1F2937;
     gap: 24px;
-    height: 500px;
+    height: 450px;
     font-size: 18px;
     border-top: 64px;
 }
@@ -77,10 +77,140 @@ a {
 
 button {
     color: #F9FAF8;
-    background-color:   #3882F6;
+    background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 10px;
     font-weight: 800;
     font-size: 18px;
     border-style: none;
+}
+
+.second {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+.second .main-text {
+    padding-bottom: 48px;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.second .card-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.card-img {
+    width: inherit;
+    height: 150px;
+    box-sizing: border-box;
+    border-width: 10px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    flex: 0 0 auto;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-wrap {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    align-self: center;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 60px 150px;
+
+}
+
+.call-to-action .left-column .main-text {
+    color: #F9FAF8;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.call-to-action .left-column .sub-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.call-to-action button {
+    border: 4px solid #F9FAF8;
+    padding: 10px 50px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    max-height: 56px;
+}
+
+.footer {
+    height: 75px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: underline;
+}
+
+.footer a,
+.footer div {
+    color: #F9FAF8;
+    font-size: 18px;
 }
